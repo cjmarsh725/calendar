@@ -4,7 +4,15 @@ import './Row.css';
 class Row extends Component {
   render() {
     return (
-      <div>Row</div>
+      <div>
+        <Cell />
+        <Cell />
+        <Cell />
+        <Cell />
+        <Cell />
+        <Cell />
+        <Cell />
+      </div>
     );
   }
 }
